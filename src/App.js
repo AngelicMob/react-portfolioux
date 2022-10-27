@@ -1,13 +1,8 @@
-import logo from './logo.svg';
-import React from 'react';
-import "./App.module.scss";
+import React from "react";
+import "./App.scss";
 
 function App() {
-  return (
-    <div className="test">
-    dwqdqwdqwdqwd
-    </div>
-  );
+  return <div className="test">dwqdqwdqwdqwd</div>;
 }
 
 export default App;
