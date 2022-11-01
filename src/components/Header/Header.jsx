@@ -1,6 +1,6 @@
-import Button from 'react-bootstrap/Button';
+
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
+
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -11,9 +11,9 @@ function Header() {
   return (
     <>
       
-        <Navbar key={expand} expand={expand} className="mb-3 nav-container">
+        <Navbar key={expand} expand={expand} className="mb-3 nav-container" fixed="top">
           <Container fluid>
-            <Navbar.Brand href="#">Angelic Andersson</Navbar.Brand>
+            <Navbar.Brand href="/">Angelic Andersson</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -22,20 +22,20 @@ function Header() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  Case Studies
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">About</Nav.Link>
+                  <Nav.Link href="about">About</Nav.Link>
                   <NavDropdown
                     title="Case Studies"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                    <NavDropdown.Item href="#action3">Willys</NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">Timata           
+                    <NavDropdown.Item href="willys">Willys</NavDropdown.Item>
+                    <NavDropdown.Item href="timata">Timata           
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action5">Stimple           
+                    <NavDropdown.Item href="stimple">Stimple           
                     </NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
