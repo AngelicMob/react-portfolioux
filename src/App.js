@@ -1,8 +1,19 @@
 import React from "react";
 import "./App.scss";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Card from "./components/Card/Card";
+
 
 function App() {
-  return <h1>Welcome!</h1>;
+  return <div>
+    <Header/>
+    
+      <Card/>
+    
+    <Footer/>
+  </div>;
+
 }
 
 export default App;
