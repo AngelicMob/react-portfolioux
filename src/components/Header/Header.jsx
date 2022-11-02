@@ -5,7 +5,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { BiHomeAlt } from "react-icons/bi";
+
 import './_Header.scss'
+import React from 'react'
 function Header() {
     const expand = 'md'
   return (
@@ -13,7 +16,7 @@ function Header() {
       
         <Navbar key={expand} expand={expand} className="mb-3 nav-container" fixed="top">
           <Container fluid>
-            <Navbar.Brand href="/">Angelic Andersson</Navbar.Brand>
+            <Navbar.Brand href="/"><BiHomeAlt/>Angelic</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}

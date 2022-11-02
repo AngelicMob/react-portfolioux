@@ -1,0 +1,37 @@
+@import '../../variables/global';
+
+.base{
+    width: 165px;
+    height: 62px;
+    outline: none;
+    border:none;
+    border-radius: 16px;
+}
+.outlined {
+  color: $teal;
+  background-color: transparent;
+  border: 1px solid $teal;
+}
+.outlined:hover{
+    background-color: $teal;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.primary {
+  color: white;
+  background: $teal;
+}
+
+.inverted{
+    background: white;
+    color: $teal;
+}
+
+.small {
+  width: 100px;
+}
+
+.full {
+  width: 100%;
+}

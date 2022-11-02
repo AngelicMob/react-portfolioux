@@ -43,13 +43,16 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <>
+    <main style={{position: "relative"}}>
     <Header/>
     <div style={{width: "100%", height:"60px"}}></div>
+    <article>
     <RouterProvider router={router} />
-    <div style={{width: "100%", height:"100px", marginBottom:"100px"}}></div>
+    </article>
+   
+    <div style={{width: "100%", height:"100px"}}></div>
     <Footer/>
-    </>
+    </main>
     
   </React.StrictMode>
 
