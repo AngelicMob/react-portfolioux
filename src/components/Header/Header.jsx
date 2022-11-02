@@ -13,7 +13,6 @@ function Header() {
     const expand = 'md'
   return (
     <>
-      
         <Navbar key={expand} expand={expand} className="mb-3 nav-container" fixed="top">
           <Container fluid>
             <Navbar.Brand href="/"><BiHomeAlt/>Angelic</Navbar.Brand>
@@ -42,7 +41,6 @@ function Header() {
                     </NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
-               
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>
