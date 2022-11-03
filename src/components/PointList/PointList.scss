@@ -1,7 +1,9 @@
+@import "../../variables/global";
+/*dot-list holds the  dot and line, the item*/
+
 .dot-list {
   min-width: 700px;
   max-width: 900px;
-
   display: flex;
   box-sizing: border-box;
   margin-left: auto;
@@ -12,19 +14,19 @@
   min-height: 30px;
   min-width: 30px;
   border-radius: 50px;
-  background-color: #125a59;
+  background-color: $darkteal;
   box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: $white;
   font-size: 11px;
   font-weight: bold;
 }
 
 .line {
   width: 3px;
-  background-color: #125a59;
+  background-color: $darkteal;
   height: 100%;
   box-sizing: border-box;
 }
@@ -41,14 +43,15 @@
 .item-content {
   width: 90%;
   margin-bottom: 25px;
-  font-family: "Open Sans", sans-serif;
-  color: #323232;
+  font-family: $quicksand;
+  font-weight: $regular;
+  color: $darkgrey;
 }
 
 .heading {
   min-height: 30px;
-  color: #125a59;
+  color: $darkteal;
   font-size: 18px;
-  font-weight: 700;
-  font-family: "Raleway", sans-serif;
+  font-weight: $bold;
+  font-family: $poppins;
 }

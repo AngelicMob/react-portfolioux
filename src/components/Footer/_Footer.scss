@@ -15,16 +15,22 @@
 .content {
   display: flex;
   height: 50px;
-
   width: 100%;
   justify-content: space-around;
   align-items: center;
   li {
     p {
-      color: white;
+      color: $white;
       font-family: $quicksand;
     }
   }
+}
+.linkedIn-link {
+  color: $white;
+  font-size: 18px;
+  font-family: $quicksand;
+  font-weight: $semibold;
+  color: $white;
 }
 
 .center-content {

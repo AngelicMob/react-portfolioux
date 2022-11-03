@@ -1,3 +1,116 @@
+@import '../../variables/global';
 .about-page-wrapper {
-  height: 90vh;
+  margin-top: 60px;
+}
+.about-section {
+  height: 350px;
+  background-position: bottom;
+}
+
+.intro-text {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $quicksand;
+  font-weight: $semibold;
+  font-size: $h2-font-size;
+  width: 40%;
+  background: rgba(0, 0, 0, 0.8);
+
+  p {
+    color: $white;
+    white-space: pre-line;
+  }
+}
+
+.why-ux-section {
+  margin: 150px 100px;
+}
+
+.why-ux-container {
+  white-space: pre-line;
+  h3 {
+    margin-bottom: 20px;
+  }
+}
+
+.about-me-card {
+  height: 90%;
+  width: 80%;
+  background-color: $grey;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.outside-work-section {
+  height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-text {
+  height: 90%;
+  width: 60%;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  p:last-child{
+    margin-bottom: 40px;
+  }
+}
+.right {
+  height: 90%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 770px) {
+  .intro-text {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .right {
+    display: none;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .about-me-card {
+    height: auto;
+    width: 100%;
+    background-color: $grey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  
+}
+.left-text {
+  height: 90%;
+  width:100%;
+  padding: 30px 30px;
+  box-sizing: border-box;
+  p:last-child{
+    margin-bottom: 40px;
+  }
+}
+.outside-work-section {
+  height:auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 }

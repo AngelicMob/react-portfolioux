@@ -59,6 +59,7 @@ function App() {
         </div>
       </section>
       <section className="case-study-container">
+        <h2>Case Study Overview</h2>
         <Container>
           <Row>
             {CardData.map((e) => {

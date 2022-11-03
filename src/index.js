@@ -40,6 +40,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <main style={{ position: "relative" }}>
       <Header />
       <div style={{ width: "100%", height: "60px" }}></div>
+      {/* Used only one article element for usage at least once*/}
       <article>
         <RouterProvider router={router} />
       </article>

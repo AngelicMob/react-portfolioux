@@ -19,12 +19,12 @@
 }
 
 .primary {
-  color: white;
+  color: $white;
   background: $teal;
 }
 
 .inverted {
-  background: white;
+  background: $white;
   color: $teal;
 }
 
@@ -34,7 +34,7 @@
   border: 1px solid white;
 }
 .inverted-outlined:hover {
-  background-color: white;
+  background-color: $white;
   color: $teal;
   transition: 0.3s ease-in-out;
 }

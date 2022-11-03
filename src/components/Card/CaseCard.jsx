@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
-import { NavLink } from 'react-router-dom';
 import Button from '../Button/Button';
 import './_Card.scss'
 import { useNavigate } from 'react-router-dom';
@@ -16,7 +15,6 @@ const CaseCard = (props) => {
           <div style={{position: "absolute", bottom:"30px",left:"30px", width: "80%"}}>
           <Button action={()=>navigate(props.to)} variants="inverted-outlined full" color="">Read More</Button>
           </div>
-          
         </Card.Body>
       </Card>
     )
