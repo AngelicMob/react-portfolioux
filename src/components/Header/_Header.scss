@@ -1,6 +1,20 @@
-@import '../../variables/global';
-.nav-container{
-    background-color: $offwhite;
-    
+@import "../../variables/global";
+.nav-container {
+  background-color: $offwhite;
+  height: 100px;
+  font-family: $quicksand;
+  font-weight: $regular;
 }
 
+.home-button {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  gap: 10px;
+  padding: 10px;
+}
+.home-button:hover {
+  background-color: $oathmedium;
+  color: white;
+  transition: 0.5s ease-in-out;
+}

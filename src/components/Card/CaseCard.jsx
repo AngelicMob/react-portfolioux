@@ -6,17 +6,15 @@ import './_Card.scss'
 import { useNavigate } from 'react-router-dom';
 const CaseCard = (props) => {
   const navigate = useNavigate()
-  
     return(
-        <Card style={{ width: '24rem', height: "30rem", background: "teal", color: "white" }}>
-        <Card.Img variant="top" src={props.image} style={{height: "200px"}} />
+        <Card style={{ width: '22rem', height: "23rem", background: "teal", color: "white", marginTop: "50px" }}>
         <Card.Body>
-          <Card.Title>{props.title}</Card.Title>
-          <Card.Text>
+          <Card.Title style={{marginTop:"20px"}}>{props.title}</Card.Title>
+          <Card.Text style={{marginTop:"20px"}}>
             {props.description}
           </Card.Text>
-          <div style={{position: "absolute", bottom:"30px", width: "90%"}}>
-          <Button action={()=>navigate(props.to)} variants="inverted full" color="">Read More</Button>
+          <div style={{position: "absolute", bottom:"30px",left:"30px", width: "80%"}}>
+          <Button action={()=>navigate(props.to)} variants="inverted-outlined full" color="">Read More</Button>
           </div>
           
         </Card.Body>

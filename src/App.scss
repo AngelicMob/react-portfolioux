@@ -7,30 +7,49 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 100px;
+  margin-top: 150px;
+  margin-bottom: 250px;
 }
 .information-container {
+  align-items: center;
   display: flex;
-  justify-content: space-evenly;
-  padding: 30px;
+  padding: 30px 0px;
   box-sizing: border-box;
-  width: 90%;
+  width: 70%;
+  margin-bottom: 250px;
 }
 
 .introduction-box {
-  width: 80%;
-
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   h1 {
     font-size: $big-header;
     color: $oathmedium;
     font-family: $poppins;
     font-weight: $bold;
   }
+  p {
+    width: 65%;
+  }
+}
+
+.image-section {
+  width: 40%;
+  display: flex;
 }
 
 .scroll-to-explore {
   display: flex;
+  align-items: center;
+  gap: 20px;
+  span {
+    font-family: $quicksand;
+    font-weight: $semibold;
+  }
 }
+
 .case-study-container {
   margin-bottom: 50px;
 }
@@ -38,4 +57,35 @@
 .button-group {
   display: flex;
   gap: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 770px) {
+  .information-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 60px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .introduction-box {
+    width: 100%;
+    p {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .image-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }

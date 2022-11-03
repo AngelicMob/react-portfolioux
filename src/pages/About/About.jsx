@@ -1,9 +1,26 @@
-import './About.scss'
-import React from 'react'
+import "./About.scss";
+import React from "react";
+import { Button } from "react-bootstrap";
 const About = () => {
-    return (
-        <div>About page</div>
-    )
-}
+  const headerText = {
+    heading: "Hi!,",
+    preText: "I am Angelic Andersson",
+    text: "A UX designer based in Gothenburg, Sweden",
+  };
+  return (
+    <article className="about-page-wrapper">
+      <section>me me</section>
+      <section>me me</section>
+      <section>me me</section>
+      <section>me me</section>
+      <section>me me</section>
+      <section>me me</section>
+      <section>me me</section>
+      <section>me me</section>
+      <section>me me</section>
+      <section>me me</section>
+    </article>
+  );
+};
 
 export default About;
