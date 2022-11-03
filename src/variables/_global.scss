@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+/*
+Description: A Global SCSS file where all the global variables 
+are needed in other Components*/
+
 /*------------------- BASE PAGE DESIGN -------------------*/
   /*------------------- HEADER -------------------*/
   $header-height: 3rem;
@@ -10,6 +14,7 @@
   /*------------------- Main Colors -------------------*/
   $teal: #327b7a;
   $offwhite: #fdfdfd;
+  $white: #ffffff;
   $text-color: #403939;
   $container-color: #fdfdfd;
 

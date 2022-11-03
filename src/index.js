@@ -5,7 +5,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header/Header";
-
 import About from "./pages/About/About";
 import Willys from "./pages/Willys/Willys";
 import Timata from "./pages/Timata/Timata";

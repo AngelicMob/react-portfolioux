@@ -52,7 +52,7 @@ function App() {
           </div>
         </div>
         <div className="scroll-to-explore">
-          <span>Sroll to explore</span>
+          <span>Scroll To Explore</span>
           <IconContext.Provider value={{ className: "shared-class", size: 30 }}>
             <BiDownArrow />
           </IconContext.Provider>

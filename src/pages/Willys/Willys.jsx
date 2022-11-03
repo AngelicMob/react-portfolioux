@@ -55,7 +55,7 @@ const Willys = () => {
           <img
             style={{ width: "60%" }}
             src={imgBaseUrl + "discovery-picture.svg"}
-            hei
+            alt="willysssc1"
           />
         </div>
       </PointList>
@@ -75,11 +75,11 @@ const Willys = () => {
       </PointList>
       <PointList title="Results " index={5} lastItem={false}>
         <div style={{ display: "flex" }}>
-          <img src={imgBaseUrl + "willyssc1.svg"} />
-          <img src={imgBaseUrl + "willyssc2.svg"} />
+          <img src={imgBaseUrl + "willyssc1.svg"} alt="willysssc1"/>
+          <img src={imgBaseUrl + "willyssc2.svg"} alt="willysssc2"/>
         </div>
 
-        <img src={imgBaseUrl + "willyssc3.svg"} />
+        <img src={imgBaseUrl + "willyssc3.svg"} alt="willysssc3"/>
       </PointList>
       <PointList title="What I could improve" index={6} lastItem={false}>
         <ul style={{ lineHeight: "30px" }}>
