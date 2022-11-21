@@ -9,7 +9,7 @@ import { IconContext } from "react-icons";
 
 function App() {
   return (
-    <header className="home-page-wrapper">
+    <div className="home-page-wrapper">
       <section className="initial-view">
         <div className="information-container">
           <div className="introduction-box">
@@ -77,7 +77,7 @@ function App() {
           </Row>
         </Container>
       </section>
-    </header>
+    </div>
   );
 }
 
