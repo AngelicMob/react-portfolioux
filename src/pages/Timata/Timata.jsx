@@ -33,7 +33,7 @@ const Timata = () => {
               marginLeft: "20px",
             }}
           >
-            <img src={imgBaseUrl + "before.svg"} style={{ height: "70%" }} />
+            <img src={imgBaseUrl + "before.svg"} style={{ height: "70%" }} alt="before-pic" />
           </div>
         </div>
       </PointList>
@@ -44,7 +44,7 @@ const Timata = () => {
             each functions. <br />
             We voted on the best sketch we wanted to progress with.
           </p>
-          <img style={{ width: "50%" }} src={imgBaseUrl + "Lofi.svg"} />
+          <img style={{ width: "50%" }} src={imgBaseUrl + "Lofi.svg"} alt ="lofi sketch" />
         </div>
       </PointList>
       <PointList title="Moodboards" index={3} lastItem={false}>
@@ -54,11 +54,11 @@ const Timata = () => {
           <b>Dark mode pop.</b>
         </p>
         <div style={{ display: "flex", alignItems: "center" }}>
-          <img src={imgBaseUrl + "mb-1.svg"} height={450} width={500} />
+          <img src={imgBaseUrl + "mb-1.svg"} height={450} width={500} alt ="moodboard-forest pic"/>
           <div style={{ borderBottom: "1px solid #125a59" }}>
             <h3 style={{ margin: "0px" }}>vs</h3>
           </div>
-          <img src={imgBaseUrl + "mb-2.svg"} height={450} width={500} />
+          <img src={imgBaseUrl + "mb-2.svg"} height={450} width={500} alt ="moodboard-dark pop pic" />
         </div>
       </PointList>
       <PointList title="HIFI Sketches" index={4} lastItem={false}>
@@ -67,7 +67,7 @@ const Timata = () => {
             We started to create the typohraphy, spacing and atomic, molecule
             and organism details of the finished prototypes.
           </p>
-          <img src={imgBaseUrl + "result-start.svg"} height={350} width={400} />
+          <img src={imgBaseUrl + "result-start.svg"} height={350} width={400} alt ="typography-result pic" />
         </div>
       </PointList>
       <PointList title="Design System & Typography" index={5} lastItem={false}>
@@ -75,7 +75,7 @@ const Timata = () => {
           We started to create the typohraphy, spacing and atomic, molecule and
           organism details of the finished prototypes.
         </p>
-        <img src={imgBaseUrl + "design-system.svg"} />
+        <img src={imgBaseUrl + "design-system.svg"} alt ="design-system pic" />
       </PointList>
       <PointList title="Define Phase " index={6} lastItem={true}>
         <p style={{ paddingRight: "20px", lineHeight: "28px" }}>

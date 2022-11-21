@@ -3,13 +3,13 @@ import Button from "../../components/Button/Button";
 import "./About.scss";
 const About = () => {
   const IntroText =
-    "Hi!, \n I am Angelic AnderssonA \n UX designer based in Gothenburg, Sweden";
+    "Hi! \n I am Angelic Andersson \n UX designer based in Gothenburg, Sweden";
 
   const WhyUXText =
     "My entry point within IT started with programming. , The education programs I’ve attended came with 6 month period of internship. During my internship I’ve come to a discovery of what I really wanted to focus within the IT. UX! \n Yes, I started to understand more during my first intership and second intership what UX really is, the more I wanted to pursue a carrier that was much more about user centered design and visual elements rather than logical and functional, and that the design has meaning and purpose and thus my turning point. \n \n\n  I fell in love with the process of discovery, empthazy phases to get to know the real problems and provide solutions to them. It’s real fun to me when the designs you create actually solve problems. And I am very interested to become better at this User research part.";
 
   return (
-    <div className="about-page-wrapper">
+    <main className="about-page-wrapper">
       <section
         className="about-section"
         style={{ backgroundImage: "url(/cv-assets/about/gtb.png)" }}
@@ -72,14 +72,14 @@ const About = () => {
           <div className="right">
             <img
               src="./cv-assets/cvpic.svg"
-              alt="profile"
+              alt="profile pic"
               height={350}
               width={350}
             ></img>
           </div>
         </div>
       </section>
-    </div>
+    </main>
   );
 };
 

@@ -1,5 +1,4 @@
 import Container from "react-bootstrap/Container";
-
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -11,7 +10,7 @@ import React from "react";
 function Header() {
   const expand = "md";
   return (
-    <>
+    <header>
       <Navbar
         key={expand}
         expand={expand}
@@ -53,7 +52,7 @@ function Header() {
           </Navbar.Offcanvas>
         </Container>
       </Navbar>
-    </>
+    </header>
   );
 }
 

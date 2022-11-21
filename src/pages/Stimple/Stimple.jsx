@@ -43,7 +43,7 @@ const Stimple = () => {
             This is to gather qualative data and discover problems and
             frustrations of both first time users and frequent users.
           </p>
-          <ul style={{ lineHeight: "30px" }}>
+          <ol style={{ lineHeight: "30px" }}>
             <li>
               Transcribe the interviews for codes and themes for later
               construction of survey questions.
@@ -56,7 +56,7 @@ const Stimple = () => {
               Once the survey has gathered 30 answers we compile all the data
               into quantitive data to find a persona and situationas.
             </li>
-          </ul>
+          </ol>
         </PointList>
         <PointList title="Heauristic Evaluation" index={3} lastItem={false}>
           <p>
@@ -86,11 +86,11 @@ const Stimple = () => {
             With designsketches and solutions for each HMW’s we create a Design
             System in order to faster prototype the app together.
           </p>
-          <ul style={{ lineHeight: "30px" }}>
+          <ol style={{ lineHeight: "30px" }}>
             <li>After that we will create wireframes.</li>
             <li>Discuss which wireframes we will focus building from.</li>
             <li>Vote the best wireframes.</li>
-          </ul>
+          </ol>
           <p>With wireframes ready we create the first prototype.</p>
           <p>
             We preform a usability test on our prototype and contruct a customer

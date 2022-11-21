@@ -9,7 +9,7 @@ import About from "./pages/About/About";
 import Willys from "./pages/Willys/Willys";
 import Timata from "./pages/Timata/Timata";
 import Stimple from "./pages/Stimple/Stimple";
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 
 const router = createBrowserRouter([
@@ -37,7 +37,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <main style={{ position: "relative" }}>
+    <div style={{ position: "relative" }}>
       <Header />
       <div style={{ width: "100%", height: "60px" }}></div>
       {/* Used only one article element for usage at least once*/}
@@ -47,7 +47,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
       <div style={{ width: "100%", height: "100px" }}></div>
       <Footer />
-    </main>
+    </div>
   </React.StrictMode>
 );
 
